@@ -4,7 +4,8 @@ fun main() {
     val a1 = 100;
     val a2 = 200;
     sum(a1, a2)
-    sum(10)
+    val res = sum(10)
+    println(res)
 }
 
 fun sum(a:Int, b:Int=100):Int {
