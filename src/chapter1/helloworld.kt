@@ -1,3 +1,5 @@
+package chapter1
+
 fun main() {
     val data1 = 100
     val data2 = "hello world"

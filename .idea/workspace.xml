@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="" />
+    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/T02_function.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/helloworld.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZVbHtWj7fEsnfGVKxIZzd7uVfv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,16 +31,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a\IdeaProjects\kotlinTutorial\src\chapter1" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloworldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter1.HelloworldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="HelloworldKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.HelloworldKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -39,7 +54,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.HelloworldKt" />
+        <item itemvalue="Kotlin.chapter1.HelloworldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -57,38 +72,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584927871567">
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871567" />
-    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1584927871567">
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
+    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1584930111540">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871567" />
-    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1584927871567">
+    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111540" />
+    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1584930111540">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871567" />
-    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1584927871567">
+    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111540" />
+    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871567" />
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584927871440">
+    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871440" />
-    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584927871440">
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
+    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871440" />
-    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584927871440">
+    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
+    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871440" />
-    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584927871440">
+    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584930111541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584927871440" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584930111541" />
     <state x="537" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1584927130867">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
