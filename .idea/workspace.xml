@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/T09_for.kt" afterDir="false" />
+    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="for">
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T10_class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T11_PrimaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T12_SecondaryConstrutor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T13_constructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T14_Property.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +39,45 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a\IdeaProjects\kotlinTutorial\src\chaper2" />
       <recent name="C:\Users\a\IdeaProjects\kotlinTutorial\src\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter1.T09_forKt">
-    <configuration name="chapter1.IteratorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.chaper2.T14_PropertyKt">
+    <configuration name="chaper2.T10_classKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.IteratorKt" />
+      <option name="MAIN_CLASS_NAME" value="chaper2.T10_classKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter1.T06_ifKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chaper2.T13_constructorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.T06_ifKt" />
+      <option name="MAIN_CLASS_NAME" value="chaper2.T13_constructorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chaper2.T14_PropertyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinTutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chaper2.T14_PropertyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter1.To5_CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinTutorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.To5_CollectionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chaper2.T14_PropertyKt" />
+        <item itemvalue="Kotlin.chaper2.T13_constructorKt" />
+        <item itemvalue="Kotlin.chaper2.T10_classKt" />
         <item itemvalue="Kotlin.chapter1.T09_forKt" />
         <item itemvalue="Kotlin.chapter1.T07_whenKt" />
-        <item itemvalue="Kotlin.chapter1.T06_ifKt" />
-        <item itemvalue="Kotlin.chapter1.IteratorKt" />
-        <item itemvalue="Kotlin.chapter1.To5_CollectionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584939754050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="for">
+      <created>1584940128187</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584940128187</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,53 +240,54 @@
     <MESSAGE value="iterator" />
     <MESSAGE value="if" />
     <MESSAGE value="when" />
-    <option name="LAST_COMMIT_MESSAGE" value="when" />
+    <MESSAGE value="for" />
+    <option name="LAST_COMMIT_MESSAGE" value="for" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="695" y="99" key="CommitChangelistDialog2" timestamp="1584939753850">
+    <state x="695" y="99" key="CommitChangelistDialog2" timestamp="1584944531570">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="695" y="99" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584939753850" />
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584940104485">
+    <state x="695" y="99" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944531570" />
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom" timestamp="1584944439445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1584940104485">
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
+    <state width="1636" height="267" key="GridCell.Tab.0.center" timestamp="1584944439445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1584940104485">
+    <state width="1636" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
+    <state width="1636" height="267" key="GridCell.Tab.0.left" timestamp="1584944439445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1584940104485">
+    <state width="1636" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
+    <state width="1636" height="267" key="GridCell.Tab.0.right" timestamp="1584944439445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584940104485">
+    <state width="1636" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584944373660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584940104485">
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584944373660" />
+    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584944373660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584940104485">
+    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584944373660" />
+    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584944373660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
-    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584940104485">
+    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584944373660" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584944373660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584940104485" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584944373660" />
     <state x="614" y="214" key="RollbackChangesDialog" timestamp="1584939340945">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="614" y="214" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584939340945" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584939755341">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584944533208">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584939755341" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944533208" />
     <state x="537" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1584927130867">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
