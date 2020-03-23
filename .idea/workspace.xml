@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/T03_String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/T04_nullable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/To5_Collection.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/T03_String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/T03_String.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
       <recent name="C:\Users\a\IdeaProjects\kotlinTutorial\src\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter1.T03_StringKt">
+  <component name="RunManager" selected="Kotlin.chapter1.To5_CollectionKt">
     <configuration name="chapter1.HelloworldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -77,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chapter1.To5_CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinTutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.To5_CollectionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chapter1.To5_CollectionKt" />
         <item itemvalue="Kotlin.chapter1.T03_StringKt" />
         <item itemvalue="Kotlin.chapter1.T02_functionKt" />
         <item itemvalue="Kotlin.chapter1.HelloworldKt" />
@@ -110,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584930993974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Any 타입, smart cast">
+      <created>1584932385315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584932385315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="자동형변환 불가능">
+      <created>1584932796275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584932796275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,49 +181,51 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="funtion 기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="funtion 기능" />
+    <MESSAGE value="Any 타입, smart cast" />
+    <MESSAGE value="자동형변환 불가능" />
+    <option name="LAST_COMMIT_MESSAGE" value="자동형변환 불가능" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="97" key="CommitChangelistDialog2" timestamp="1584930993725">
+    <state x="979" y="124" key="CommitChangelistDialog2" timestamp="1584932796026">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="489" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584930993725" />
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584931588354">
+    <state x="979" y="124" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584932796026" />
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584933771278">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588354" />
-    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1584931588354">
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771278" />
+    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1584933771278">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588354" />
-    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1584931588354">
+    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771278" />
+    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1584933771278">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588354" />
-    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1584931588354">
+    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771278" />
+    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1584933771278">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588354" />
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584931588234">
+    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771278" />
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584933771164">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588234" />
-    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584931588234">
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771164" />
+    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1584933771164">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588234" />
-    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584931588234">
+    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771164" />
+    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1584933771164">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588234" />
-    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584931588234">
+    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771164" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1584933771164">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584931588234" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584930995479">
+    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584933771164" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584932799185">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584930995479" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584932799185" />
     <state x="537" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1584927130867">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

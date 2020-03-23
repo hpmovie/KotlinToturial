@@ -27,3 +27,4 @@ fun getLength(myVal:Any):Int {
     }
     return 0;
 }
+
