@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T21_Enum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T22_inner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T23_object.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584949379886</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="enum , inner class">
+      <created>1584950957602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584950957602</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,17 +282,18 @@
     <MESSAGE value="property-lateinit, by lazy" />
     <MESSAGE value="inheritance, abstract, interface" />
     <MESSAGE value="data class" />
-    <option name="LAST_COMMIT_MESSAGE" value="data class" />
+    <MESSAGE value="enum , inner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum , inner class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="633" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1584947484947">
+    <state x="633" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1584952457522">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="633" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584947484947" />
-    <state x="849" y="116" key="CommitChangelistDialog2" timestamp="1584949379724">
+    <state x="633" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584952457522" />
+    <state x="849" y="116" key="CommitChangelistDialog2" timestamp="1584950957376">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="849" y="116" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584949379724" />
+    <state x="849" y="116" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584950957376" />
     <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1584950894253">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -325,10 +330,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="614" y="214" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584939340945" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584949381125">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584950958964">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584949381125" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584950958964" />
     <state x="92" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584945999557">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
