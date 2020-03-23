@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="for">
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T10_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T11_PrimaryConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T12_SecondaryConstrutor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T13_constructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chaper2/T14_Property.kt" afterDir="false" />
+    <list default="true" id="102ade91-b6b9-4602-af1b-5e25540b8549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chaper2/T15_lateinit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlinTutorial/META-INF/kotlinTutorial.kotlin_module" afterDir="false" />
     </list>
@@ -43,7 +39,7 @@
       <recent name="C:\Users\a\IdeaProjects\kotlinTutorial\src\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.chaper2.T14_PropertyKt">
+  <component name="RunManager" selected="Kotlin.chaper2.T15_lateinitKt">
     <configuration name="chaper2.T10_classKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
@@ -83,14 +79,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter1.T07_whenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chaper2.T15_lateinitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinTutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.T07_whenKt" />
+      <option name="MAIN_CLASS_NAME" value="chaper2.T15_lateinitKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chaper2.T15_lateinitKt" />
         <item itemvalue="Kotlin.chaper2.T14_PropertyKt" />
         <item itemvalue="Kotlin.chaper2.T13_constructorKt" />
         <item itemvalue="Kotlin.chaper2.T10_classKt" />
         <item itemvalue="Kotlin.chapter1.T09_forKt" />
-        <item itemvalue="Kotlin.chapter1.T07_whenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584940128187</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="class, primary constructor, secondary constructor">
+      <created>1584944531815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584944531815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="property-getter,setter">
+      <created>1584944582681</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584944582681</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,29 +251,31 @@
     <MESSAGE value="if" />
     <MESSAGE value="when" />
     <MESSAGE value="for" />
-    <option name="LAST_COMMIT_MESSAGE" value="for" />
+    <MESSAGE value="class, primary constructor, secondary constructor" />
+    <MESSAGE value="property-getter,setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="property-getter,setter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="695" y="99" key="CommitChangelistDialog2" timestamp="1584944531570">
+    <state x="695" y="99" key="CommitChangelistDialog2" timestamp="1584944582450">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="695" y="99" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944531570" />
-    <state width="1636" height="267" key="GridCell.Tab.0.bottom" timestamp="1584944439445">
+    <state x="695" y="99" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944582450" />
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom" timestamp="1584945991994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
-    <state width="1636" height="267" key="GridCell.Tab.0.center" timestamp="1584944439445">
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584945991994" />
+    <state width="1636" height="267" key="GridCell.Tab.0.center" timestamp="1584945991994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
-    <state width="1636" height="267" key="GridCell.Tab.0.left" timestamp="1584944439445">
+    <state width="1636" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584945991994" />
+    <state width="1636" height="267" key="GridCell.Tab.0.left" timestamp="1584945991994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
-    <state width="1636" height="267" key="GridCell.Tab.0.right" timestamp="1584944439445">
+    <state width="1636" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584945991994" />
+    <state width="1636" height="267" key="GridCell.Tab.0.right" timestamp="1584945991994">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584944439445" />
+    <state width="1636" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584945991994" />
     <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1584944373660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -284,10 +296,14 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="614" y="214" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584939340945" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584944533208">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1584944592200">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944533208" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584944592200" />
+    <state x="92" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584945999557">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584945999557" />
     <state x="537" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1584927130867">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
